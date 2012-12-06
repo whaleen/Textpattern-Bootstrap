@@ -6,13 +6,13 @@ Textpattern on Twitter Bootstrap, or the other way around.
 
 ## Install
 
-1. Install Textpattern.
-2. Drop /texstrap in the root directory of your Textpattern project.
-3. Install Textpattern plugin cnk_versioning and edit it's source to point to /txtstrap/_templates 
+1. Install [Textpattern](http://textpattern.com/).
+2. Drop [/texstrap](https://github.com/whaleen/txtstrap) in the root directory of your Textpattern project.
+3. Install Textpattern plugin [cnk_versioning](https://gist.github.com/4128491) and edit it's source to point to [/txtstrap/_templates](https://github.com/whaleen/txtstrap/tree/master/_templates) 
 
 
 
-## /textrap Directories Explained
+## /textrap directories explained
 
 ### /_templates
 
