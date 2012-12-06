@@ -42,7 +42,6 @@ plugin: cbe_frontauth
 
 </txp:hide>
 
-
             <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>

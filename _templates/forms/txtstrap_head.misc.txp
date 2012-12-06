@@ -6,7 +6,7 @@
 <!-- Twitter Bootstrap Base Stylesheet -->
 <link rel="stylesheet" href="<txp:site_url />txtstrap/bootstrap/css/bootstrap.css">
 	
-<!-- For the fixed navbar. -->
+<!-- For the fixed navbar. Must follow bootrap.css and precede bootstrap-responsive.css -->
 <style>body {padding-top: 60px; padding-bottom: 40px;}</style>
 
 <!-- Twitter Bootstrap Responsive Stylesheet -->
@@ -24,13 +24,6 @@
 <!-- Google prettify ain't working so well as of yet. It can be wrangled but I'm looking for a better option. -->    
 <link rel="stylesheet" href="<txp:site_url />txtstrap/prettify/prettify.css" />
 
-
-<!-- HTML5/Media Queries support for IE < 9 (you can remove this section and the corresponding 'js' directory files if you don't intend to support IE < 9) -->
-  <!--[if lt IE 9]>
-    <script src="<txp:site_url />js/html5shiv.js"></script>
-    <script src="<txp:site_url />js/css3-mediaqueries.js"></script>
-  <![endif]-->
-  
   
 <!-- Fav and touch icons -->
 <link rel="shortcut icon" href="<txp:site_url />txtstrap/ico/favicon.ico">
