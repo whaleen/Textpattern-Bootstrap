@@ -14,17 +14,17 @@ Textpattern templates are made up of pages, forms, and css*, all of which can es
 
 ### /assets
 
-/bootstrap
-/font-awesome
-/headsupgrid
-/jquery
-/prettify
+* /bootstrap
+* /font-awesome
+* /headsupgrid
+* /jquery
+* /prettify
 
 All references to these assets are in the the /_templates/forms/head.misc.txp and /_templates/forms/footer.misc.txp forms. Therefore, any changes to the directory structure for your projects will only require updating those paths in order for txtstrap to still work on a  drag-and-drop basis.
 
 ### /resources
 
-/txp-plugins
+* /txp-plugins
 
 A collection of plugins which are required by certain Textpattern usage examples. For instance, the Textpattern plugin mem_self_register gives us a tag which allows us to put a sign-up form in a page. The required plugins are noted in the template code.
 
