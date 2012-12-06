@@ -4,6 +4,14 @@ txtstrap
 Textpattern on Twitter Bootstrap, or the other way around.
 
 
+## Install
+
+1. Install Textpattern.
+2. Drop /texstrap in the root directory of your Textpattern project.
+3. Install Textpattern plugin cnk_versioning and edit it's source to point to /txtstrap/_templates 
+
+
+
 ## /textrap Directories Explained
 
 ### /_templates
