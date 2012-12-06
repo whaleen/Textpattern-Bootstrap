@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="<txp:lang />">
+
+<head><txp:output_form form="txtstrap_head" /></head>
+
+<body>
+
+<!-- Primary Navigation (Fixed Nav Bar)-->
+<txp:output_form form="txtstrap_nav" />
+
+
+
+<!-- -->
+
+<!-- If Default Section -->
+<txp:if_section name="default">
+<div class="container">
+<txp:output_form form="txtstrap_default" />
+
+</div>
+</txp:if_section>
+
+<!-- If About Section -->
+<txp:if_section name="about">
+<div class="container">
+<txp:output_form form="txtstrap_about" />
+</div>
+</txp:if_section>
+
+<!-- If Articles Section -->
+<txp:if_section name="articles">
+<div class="container">
+<txp:output_form form="txtstrap_articles" />
+</div>
+</txp:if_section>
+
+<!-- If Examples Section -->
+<txp:if_section name="examples">
+<div class="container">
+<txp:output_form form="txtstrap_examples" />
+</div>
+</txp:if_section>
+
+<!-- -->
+
+
+
+<!-- Footer-->
+<txp:output_form form="txtstrap_footer" />
+
+<!-- Javascripts -->
+<txp:output_form form="txtstrap_javascripts" />
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<txp:if_individual_article>
+
+<txp:article form="example" limit="1" />
+
+<txp:else />
+
+<txp:article_custom form="example_listing" section="examples" />
+
+</txp:if_individual_article>

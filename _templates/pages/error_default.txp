@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="<txp:lang />">
+
+<head>
+<txp:output_form form="head" />
+</head>
+
+<body id="<txp:if_section name=""><txp:if_search>search<txp:else />front</txp:if_search><txp:else /><txp:section /></txp:if_section>-page">
+
+<div class="container">
+  
+<txp:output_form form="masthead" />
+
+<!-- Main content -->
+
+<div class="row-fluid">
+
+<h1 class="error-status"><txp:error_status /></h1>
+<p class="error-msg"><txp:error_message /></p>
+    
+</div> <!-- .row-fluid -->
+
+
+<txp:output_form form="footer" />
+
+
+
+</div> <!-- /container -->
+
+<!-- Here be Javascripts -->
+<txp:output_form form="dragons_breath" />
+
+</body>
+</html>

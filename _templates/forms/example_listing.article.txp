@@ -1,0 +1,5 @@
+<txp:if_first_article><ul id="article-list"></txp:if_first_article>
+  <li>
+    <h4><a href="<txp:permlink />"><txp:title /></a></h4>    
+  </li>
+<txp:if_last_article></ul></txp:if_last_article>

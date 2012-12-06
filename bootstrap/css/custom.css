@@ -1,0 +1,9 @@
+/* Gist */
+.gist {margin-left:20px; font-size: 11px;}
+
+
+.sidebar-nav-fixed {
+    position:fixed;
+    top:100;
+    left:0;
+}

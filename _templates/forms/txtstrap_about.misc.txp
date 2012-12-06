@@ -1,0 +1,15 @@
+<div class="container">
+
+<txp:if_individual_article>
+<txp:article />
+
+<txp:else />  
+
+<h1>textstrap</h1>
+
+<p class="lead">For those who build websites with <a href="">Textpattern</a>, will be wire-framing with <a href="">Twitter Bootstrap</a>, fancy jQuery, and wouldn't mind a sprinkling of icons.</p>
+
+
+</txp:if_individual_article>
+
+</div>

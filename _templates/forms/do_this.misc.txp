@@ -1,0 +1,40 @@
+<!-- Content area: Everything between the header and the footer essentially. -->
+
+<!-- Section: Default (Home) / default_page_content -->
+<txp:if_section name="default">
+
+
+<txp:output_form form="default_page_content" />
+
+
+	<!-- -->
+	<txp:if_individual_article>
+	
+Single article goes here	
+
+	</txp:if_individual_article>
+
+
+
+<txp:else />
+<!-- nothing -->
+
+</txp:if_section>
+
+
+
+
+<!-- Section: About / about_page_content.misc.txp -->
+<txp:if_section name="about">
+<txp:output_form form="about_page_content" />
+</txp:if_section>
+
+<!-- Section: Articles / articles_page_content.misc.txp -->
+<txp:if_section name="articles">
+<txp:output_form form="articles_page_content" />
+</txp:if_section>
+
+<!-- Section: Another Section / another_section_page_content.misc.txp -->
+<txp:if_section name="another-section">
+<txp:output_form form="another_section_page_content" />
+</txp:if_section>

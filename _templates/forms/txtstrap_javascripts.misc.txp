@@ -1,0 +1,14 @@
+<!-- jQuery -->
+<script src="<txp:site_url />txtstrap/jquery/jquery-1.8.3.js"></script>
+	
+<!-- Twitter Bootsrap -->
+<script src="<txp:site_url />txtstrap/bootstrap/js/bootstrap.js"></script>
+
+<!-- Prettyprint -->	
+<script src="<txp:site_url />txtstrap/prettify/prettify.js"></script>
+
+<!-- Grid overlay for development http://bohemianalps.com/tools/grid/ -->
+<script src="<txp:site_url />txtstrap/headsupgrid/hugrid.js"></script>
+
+<!-- Hugrid -->
+<script src="<txp:site_url />txtstrap/headsupgrid/bootstrap-hugrid-config.js"></script>
