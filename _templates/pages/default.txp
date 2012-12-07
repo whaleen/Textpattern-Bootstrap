@@ -27,17 +27,11 @@
 </div>
 </txp:if_section>
 
+
 <!-- If Articles Section -->
 <txp:if_section name="articles">
 <div class="container">
 <txp:output_form form="txtstrap_articles" />
-</div>
-</txp:if_section>
-
-<!-- If Examples Section -->
-<txp:if_section name="examples">
-<div class="container">
-<txp:output_form form="txtstrap_examples" />
 </div>
 </txp:if_section>
 

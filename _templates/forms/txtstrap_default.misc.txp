@@ -8,9 +8,18 @@
 
 
 <div class="container">
+<div class="row">
 
+<div class="span8">
 <txp:article />
+</div><!-- .span8 -->
 
+<div class="span4">
+<txp:article form="article_listing" />
+</div><!-- .span4 -->
+
+
+</div><!-- .row -->
 </div><!-- .container -->
 
 
