@@ -4,7 +4,9 @@
 
 <txp:else />
 
+
 <txp:if_individual_article>
+
 
 
 <div class="container">
@@ -34,11 +36,7 @@
 
 <p class="lead">For people who build websites with <a href="">Textpattern</a> and use, or would like to use, <a href="">Twitter Bootstrap</a>, and a few other odds and ends.</p>
 
-<h4>jQuery</h4>
-<p>jQuery is tightly integrated with both Textpattern & Twitter Bootstrap. In textstrap, jQuery runs first, then bootstrap.js, then the other optional javascripts follow. That's the flow.</p>
 
-<h4>Font Awesome</h4>
-<p>An alternative to the default icon set that ships with <i class="icon-twitter"></i> Twitter Bootstrap. There are many advantages to it's usage over Bootstrap's default inclusion of Glyphicons. It's much larger icon selection would likely be the more popular reason it's to be preferred.</p>
 
 </div><!-- .span8 -->
 
@@ -50,7 +48,19 @@
 </div><!-- .container -->
 
 
-</txp:if_individual_article>
 
+<div class="container">
+<div class="row">
+
+<div class="span4 placeholder"></div>
+<div class="span4 placeholder"></div>
+<div class="span4 placeholder"></div>
+
+</div><!-- .row -->
+</div><!-- .container -->
+
+
+
+</txp:if_individual_article>
 
 </txp:if_category>

@@ -36,3 +36,22 @@
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h4>jQuery</h4>
+<p>jQuery is tightly integrated with both Textpattern & Twitter Bootstrap. In textstrap, jQuery runs first, then bootstrap.js, then the other optional javascripts follow. That's the flow.</p>
+
+<h4>Font Awesome</h4>
+<p>An alternative to the default icon set that ships with <i class="icon-twitter"></i> Twitter Bootstrap. There are many advantages to it's usage over Bootstrap's default inclusion of Glyphicons. It's much larger icon selection would likely be the more popular reason it's to be preferred.</p>

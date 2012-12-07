@@ -1,9 +1,6 @@
-/* Gist */
-.gist {margin-left:20px; font-size: 11px;}
-
-
-.sidebar-nav-fixed {
-    position:fixed;
-    top:100;
-    left:0;
+.placeholder {
+border: 0px solid #eee;
+background-color: #eee;
+border-radius: 3px;
+height: 100px;
 }
