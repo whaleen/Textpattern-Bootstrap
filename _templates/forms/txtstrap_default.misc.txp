@@ -1,16 +1,40 @@
-<div class="container">
+<txp:if_category>
+
+<txp:article form="article_listing" />
+
+<txp:else />
 
 <txp:if_individual_article>
 
+
+<div class="container">
+
 <txp:article />
+
+</div><!-- .container -->
+
 
 <txp:else />  
 
+
+<div class="container">
+<div class="row">
+
+<div class="span8">
 <h1>textstrap</h1>
 
 <p class="lead">For those who build websites with <a href="">Textpattern</a> and would like to start out a new project using <a href="">Twitter Bootstrap</a>.</p>
+</div><!-- .span8 -->
+
+<div class="span4">
+<txp:article form="article_listing" />
+</div>
+
+</div><!-- .row -->
+</div><!-- .container -->
 
 
 </txp:if_individual_article>
 
-</div>
+
+</txp:if_category>

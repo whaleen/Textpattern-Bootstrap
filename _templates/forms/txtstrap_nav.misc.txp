@@ -1,4 +1,4 @@
-<!-- Primarg-->
+<!-- Primary Navigation -->
 
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
@@ -22,7 +22,7 @@
             <ul class="dropdown-menu">
              <txp:category_list wraptag="" break="">
 	<li<txp:if_category name='<txp:category />'> class="active"</txp:if_category>>
-	<txp:category title="1" link="1" />
+	<a href="<txp:site_url />category/<txp:category />"><txp:category title="1" link="0" /></a>
 	</li>
 	</txp:category_list>
             </ul>
@@ -61,19 +61,25 @@ plugin: cbe_frontauth
 
 
 <div class="container">
+<div class="row">
+<div class="span12">
 <ul class="breadcrumb">
-  <li><a href="<txp:site_url />">Home</a> <span class="divider">/</span></li>
+	
+	<li><a href="<txp:site_url />">Home</a> <span class="divider">/</span></li>
 
 <txp:if_section>
-  <li><a href="#"><txp:section title="1" /></a> <span class="divider">/</span></li>
+	<li><a href="<txp:site_url /><txp:section />"><txp:section title="1" /></a> <span class="divider">/</span></li>
 </txp:if_section>
 
 <txp:if_category>
-  <li><a href="#"><txp:category title="1" /></a> <span class="divider">/</span></li>
+	<li><a href="<txp:site_url /><txp:category />"><txp:category title="1" /></a> <span class="divider">/</span></li>
 </txp:if_category>
 
 <txp:if_individual_article>
-  <li class="active"><txp:page_title /></li>
+	<li class="active"><txp:title /></li>
 </txp:if_individual_article>
+
 </ul>
-</div>
+</div><!-- .span12 -->
+</div><!-- .row -->
+</div><!-- .container -->
