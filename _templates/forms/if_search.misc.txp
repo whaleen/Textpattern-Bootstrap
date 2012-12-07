@@ -1,0 +1,11 @@
+<txp:if_search>
+  <txp:article pgonly="1" limit="10" />
+  <txp:if_search_results>
+  <h2>Search Results</h2>
+    <p>These articles match your search request: </p>
+    <txp:article limit="10" searchform="search_results" />
+  <txp:else />
+  <h2>Search Results</h2>
+    <p>Sorry, we were not able to find a page matching your search request <strong><txp:search_term /></strong>.</p>
+  </txp:if_search_results>
+</txp:if_search>

@@ -29,15 +29,15 @@
 
 /* Default Heads-Up Grid Styles - These styles allow you to change the color and style of the lines that make the Heads-Up Grid */
 #hugrid div div {
-    border-color:#FF00EB; /* color of grid line */
-    border-style:solid; /* style of grid line (dotted, dashed, solid) */
+    border-color:#5efeff; /* color of grid line */
+    border-style:dotted; /* style of grid line (dotted, dashed, solid) */
     opacity:0.3; /*opacity of grid line */
 }
 #hugrid div:hover {
-    background-color:#36F3FF; /* color of gutter on :hover */
+    background-color:#eee; /* color of gutter on :hover */
 }
 #hugrid div.mline {
-    border-color:#AA82FF; /* color of margin line */
+    border-color:#5efeff; /* color of margin line */
     border-style:solid; /* style of margin lines (dotted, dashed, solid) */
 }
 #hugridRows {
@@ -45,7 +45,7 @@
 	border-style:solid; /* style of top margin line */
 }
 #hugridRows div.lineB {
-	border-color:#5DFF35; /* color of row line */
+	border-color:#5efeff; /* color of row line */
 	border-style:solid; /* style of row line */
     opacity:0.3; /*opacity of row line */
 }

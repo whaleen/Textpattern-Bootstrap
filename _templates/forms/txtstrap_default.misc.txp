@@ -41,7 +41,7 @@
 </div><!-- .span8 -->
 
 <div class="span4">
-<txp:article form="article_listing" />
+<txp:article_custom form="article_listing" />
 </div>
 
 </div><!-- .row -->
@@ -55,9 +55,16 @@
 <div class="container">
 <div class="row">
 
-<div class="span4 placeholder"><txp:search_input form="search_input" /></div>
-<div class="span4 placeholder"></div>
-<div class="span4 placeholder"></div>
+<div class="span4 placeholder">
+<div class="padded">
+</div>
+</div>
+
+<div class="span4 placeholder">
+</div>
+
+<div class="span4 placeholder">
+</div>
 
 </div><!-- .row -->
 </div><!-- .container -->
@@ -68,16 +75,14 @@
 <div class="row">
 
 <div class="span8 placeholder">
-<txp:if_search>
-  <txp:article pgonly="1" limit="10" />
-  <txp:if_search_results>
-    <p>These articles match your search request: </p>
-    <txp:article limit="10" searchform="search_results" />
-  <txp:else />
-    <p>Sorry, we were not able to find a page matching your search request <strong><txp:search_term /></strong>.</p>
-  </txp:if_search_results>
-</txp:if_search></div>
-<div class="span4 placeholder"></div>
+<div class="padded">
+<txp:output_form form="if_search" />
+</div><!-- .padded -->
+</div><!-- .span8 -->
+
+<div class="span4 placeholder">
+</div><!-- .span8 -->
+</div>
 
 </div><!-- .row -->
 </div><!-- .container -->

@@ -1,7 +1,10 @@
 .placeholder {
-border: 0px solid #eee;
-background-color: #eee;
+outline:1px solid #eee;
 border-radius: 3px;
 min-height: 100px;
 margin-bottom: 25px;
 }
+
+.padded {padding:20px;}
+
+

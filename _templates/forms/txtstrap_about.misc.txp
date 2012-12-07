@@ -1,57 +1,26 @@
-<div class="container">
-
-      <div class="masthead">
-        <ul class="nav nav-pills pull-left">
-          <li class="active"><a href="<txp:link_to_home />">Home</a></li>
-          <li><a href="<txp:site_url />articles">Articles</a></li>
-          <li><a href="<txp:site_url />contact">Contact</a></li>
-          
-          
-          
-          
-          <li class="dropdown">
-						<a class="dropdown-toggle pull-left" href="#" data-toggle="dropdown">Sign In <strong class="caret"></strong></a>
-						<div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
-							<form method="post" action="login" accept-charset="UTF-8">
-								<input style="margin-bottom: 15px;" type="text" placeholder="Username" id="username" name="username">
-								<input style="margin-bottom: 15px;" type="password" placeholder="Password" id="password" name="password">
-								<input style="float: left; margin-right: 10px;" type="checkbox" name="remember-me" id="remember-me" value="1">
-								<label class="string optional" for="user_remember_me"> Remember me</label>
-								<input class="btn btn-primary btn-block" type="submit" id="sign-in" value="Sign In">
-								<label style="text-align:center;margin-top:5px">or</label>
-                                
-							</form>
-							
-<a class="btn btn-primary btn-block" id="sign-in-google"><i class="icon-twitter"></i> Sign In with Twitter</a>
-<a class="btn btn-primary btn-block" id="sign-in-google"><i class="icon-google-plus"></i> Sign In with Google</a>
-
-<p>Need in? <a href="/signup">Sign Up</a></p>
-							
-						</div>
-					</li>
-					
-        </ul>
-
-      </div>
-
-
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-large">Learn more »</a></p>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<h4>jQuery</h4>
-<p>jQuery is tightly integrated with both Textpattern & Twitter Bootstrap. In textstrap, jQuery runs first, then bootstrap.js, then the other optional javascripts follow. That's the flow.</p>
-
-<h4>Font Awesome</h4>
-<p>An alternative to the default icon set that ships with <i class="icon-twitter"></i> Twitter Bootstrap. There are many advantages to it's usage over Bootstrap's default inclusion of Glyphicons. It's much larger icon selection would likely be the more popular reason it's to be preferred.</p>
+<!-- Example row of columns -->
+<div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details »</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details »</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details »</a></p>
+        </div>
+      </div>

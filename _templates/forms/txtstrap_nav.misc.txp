@@ -28,40 +28,27 @@
             </ul>
           </li>
         </ul>    
-       	 <ul class="nav pull-right">
-          <li class="divider-vertical"></li>
-          <li class="dropdown">
+        
+        <form class="navbar-form pull-right" method="get" action="http://localhost:8888/textstrap.dev/">
 
-<txp:hide>
+<div class="input-append">
+<!-- name attribute on input element required by textpattern -->
+  <input id="appendedInputButtons" type="search" name="q" placeholder="Type to Search">
+  <button class="btn btn-success" type="submit">Search</button>
+</div>
 
-plugin: cbe_frontauth 
-		
-<txp:cbe_frontauth_if_connected>
-<a href="#" class="dropdown-toggle navatar" data-toggle="dropdown"><txp:cbe_frontauth_whois type="RealName" /> <b class="caret"></b></a>
-</txp:cbe_frontauth_if_connected>
-
-</txp:hide>
-
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.nav-collapse -->
+</form>
+       	
+               </div><!-- /.nav-collapse -->
     </div>
   </div><!-- /navbar-inner -->
 </div>
 
 
 
-
-
 <div class="container">
 <div class="row">
+
 <div class="span12">
 <ul class="breadcrumb">
 	
@@ -81,5 +68,7 @@ plugin: cbe_frontauth
 
 </ul>
 </div><!-- .span12 -->
+
+
 </div><!-- .row -->
 </div><!-- .container -->
