@@ -32,7 +32,14 @@
 <div class="span8">
 <h1>textstrap</h1>
 
-<p class="lead">For those who build websites with <a href="">Textpattern</a> and would like to start out a new project using <a href="">Twitter Bootstrap</a>.</p>
+<p class="lead">For people who build websites with <a href="">Textpattern</a> and use, or would like to use, <a href="">Twitter Bootstrap</a>, and a few other odds and ends.</p>
+
+<h4>jQuery</h4>
+<p>jQuery is tightly integrated with both Textpattern & Twitter Bootstrap. In textstrap, jQuery runs first, then bootstrap.js, then the other optional javascripts follow. That's the flow.</p>
+
+<h4>Font Awesome</h4>
+<p>An alternative to the default icon set that ships with <i class="icon-twitter"></i> Twitter Bootstrap. There are many advantages to it's usage over Bootstrap's default inclusion of Glyphicons. It's much larger icon selection would likely be the more popular reason it's to be preferred.</p>
+
 </div><!-- .span8 -->
 
 <div class="span4">
