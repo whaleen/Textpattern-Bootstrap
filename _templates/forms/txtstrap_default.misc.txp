@@ -49,11 +49,25 @@
 
 
 
+
+
+
 <div class="container">
 <div class="row">
 
 <div class="span4 placeholder"></div>
 <div class="span4 placeholder"></div>
+<div class="span4 placeholder"></div>
+
+</div><!-- .row -->
+</div><!-- .container -->
+
+
+
+<div class="container">
+<div class="row">
+
+<div class="span8 placeholder"></div>
 <div class="span4 placeholder"></div>
 
 </div><!-- .row -->
