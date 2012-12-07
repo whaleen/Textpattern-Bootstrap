@@ -1,7 +1,9 @@
-<form role="search" method="get" action="<txp:site_url />">
 
-<h4><label for="search-textbox"><txp:text item="search" /></label></h4>
+<form role="search" method="get" action="http://localhost:8888/textstrap.dev/">
 
-<input id="search-textbox" type="search" name="q"<txp:if_search> value="<txp:search_term />"</txp:if_search>><input type="submit" value="<txp:text item='go' />">
+<label for="search-textbox">Search</label>
 
+<input id="search-textbox" type="search" name="q" placeholder="Type to Search">
+
+<button type="submit" class="btn btn-success">Search</button>
 </form>
