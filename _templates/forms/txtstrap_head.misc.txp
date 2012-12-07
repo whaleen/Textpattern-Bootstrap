@@ -4,30 +4,30 @@
 
 
 <!-- Twitter Bootstrap Base Stylesheet -->
-<link rel="stylesheet" href="<txp:site_url />txtstrap/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/bootstrap/css/bootstrap.css">
 	
 <!-- For the fixed navbar. Must follow bootrap.css and precede bootstrap-responsive.css -->
 <style>body {padding-top: 60px; padding-bottom: 40px;}</style>
 
 <!-- Twitter Bootstrap Responsive Stylesheet -->
-<link rel="stylesheet" href="<txp:site_url />txtstrap/bootstrap/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/bootstrap/css/bootstrap-responsive.css">
 
 <!-- Any of your custom styles or Bootstrap overrides. -->
-<link rel="stylesheet" href="<txp:site_url />txtstrap/bootstrap/css/custom.css">
+<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/bootstrap/css/custom.css">
 	
 <!-- Grid overlay for proofing layout work as you go: http://bohemianalps.com/tools/grid/ -->
-<link rel="stylesheet" href="<txp:site_url />txtstrap/headsupgrid/hugrid.css" />
+<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/headsupgrid/hugrid.css" />
 
 <!-- Font Awesome -->    
-<link rel="stylesheet" href="<txp:site_url />txtstrap/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/font-awesome/css/font-awesome.css">
 
 <!-- Google prettify ain't working so well as of yet. It can be wrangled but I'm looking for a better option. -->    
-<link rel="stylesheet" href="<txp:site_url />txtstrap/prettify/prettify.css" />
+<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/prettify/prettify.css" />
 
   
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="<txp:site_url />txtstrap/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<txp:site_url />txtstrap/bootstrap/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<txp:site_url />txtstrap/bootstrap/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<txp:site_url />txtstrap/bootstrap/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="<txp:site_url />txtstrap/bootstrap/ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="<txp:site_url />txtstrap/assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-icon-57-precomposed.png">
