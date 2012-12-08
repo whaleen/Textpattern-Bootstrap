@@ -3,13 +3,23 @@ txtstrap
 
 Twitter Bootstrap for Textpattern.
 
+This is not a theme per se. It is meant for fresh installs by designers and developers who generally begin a Textpattern project with empty pages and forms.
+
+It does have a few components that a Textpattern designer will be able to use right off. Namely, responsive scaffolding, a navigation bar, a series of 'content-goes-here' blocks, and a footer. The 'content-goes-here' blocks are set up to illustrate the way in which all div elements will tile throughout your responsive design. They are also meant to be placeholders for called forms via the txp:output_form tag. Take em or leave em.
+
+### Forms with the prefix *snip* (snip_breadcrumbs, snip_fixed_navigation, etc…) 
+
+These little pieces are called variously with the txp:output_form tag into the div element of your choice. They each have a minimum purpose and are meant to be the barest of building blocks.
+
+###forms with the prefix *txtstrap* (txtstrap_head, txtstrap_default, txtstrap_footer, etc…)
+
+Forms with this prefix are more geared toward the structural future of your design and as such are also written for the minimum purpose. 
 
 ## Install
 
-1. Install [Textpattern](http://textpattern.com/).
-2. Drop [/texstrap](https://github.com/whaleen/txtstrap) in the root directory of your Textpattern project.
-3. Install Textpattern plugin [cnk_versioning](https://gist.github.com/4128491) and edit the path in it's source to point to [/txtstrap/_templates](https://github.com/whaleen/txtstrap/tree/master/_templates) 
-
+1. Drop [/texstrap](https://github.com/whaleen/txtstrap) in the root directory of your Textpattern project.
+2. Install Textpattern plugin [cnk_versioning](https://gist.github.com/4128491) and edit the path in it's source to point to [/txtstrap/_templates](https://github.com/whaleen/txtstrap/tree/master/_templates). Follow cnk_versioning's own instructions if you are not already familiar with it.
+3. 
 
 
 ## /textrap directories explained

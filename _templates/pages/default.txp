@@ -27,24 +27,41 @@ Begin work...
 ======================================================= -->
 
 <txp:if_section name="default">
-<!-- Default -->
+<!-- Section: Default -->
 <div class="container">
+<txp:if_individual_article>
+<txp:article />
+
+<txp:else />
 <txp:output_form form="txtstrap_default" />
-</div>
+</txp:if_individual_article>
+</div><!-- /.container -->
 </txp:if_section>
+
 
 <txp:if_section name="about">
-<!-- About -->
+<!-- Section: About -->
 <div class="container">
+<txp:if_individual_article>
+<txp:article />
+
+<txp:else />
 <txp:output_form form="txtstrap_about" />
-</div>
+</txp:if_individual_article>
+</div><!-- /.container -->
 </txp:if_section>
 
+
 <txp:if_section name="articles">
-<!-- Articles -->
+<!-- Section: Articles -->
 <div class="container">
+<txp:if_individual_article>
+<txp:article />
+
+<txp:else />
 <txp:output_form form="txtstrap_articles" />
-</div>
+</txp:if_individual_article>
+</div><!-- /.container -->
 </txp:if_section>
 
 
