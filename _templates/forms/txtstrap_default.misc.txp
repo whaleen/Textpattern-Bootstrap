@@ -8,7 +8,7 @@
 <txp:if_individual_article>
 
 
-
+<!-- .container > .row > .spans -->
 <div class="container">
 <div class="row">
 
@@ -27,7 +27,7 @@
 
 <txp:else />  
 
-
+<!-- .container > .row > .spans -->
 <div class="container">
 <div class="row">
 
@@ -35,14 +35,11 @@
 <h1>textstrap</h1>
 
 <p class="lead">For people who build websites with <a href="">Textpattern</a> and use, or would like to use, <a href="">Twitter Bootstrap</a>, and a few other odds and ends.</p>
-
-
-
 </div><!-- .span8 -->
 
 <div class="span4">
 <txp:article_custom form="article_listing" />
-</div>
+</div><!-- .span4 -->
 
 </div><!-- .row -->
 </div><!-- .container -->
@@ -51,36 +48,36 @@
 
 
 
-
+<!-- .container > .row > .spans -->
 <div class="container">
 <div class="row">
 
 <div class="span4 placeholder">
-<div class="padded">
-</div>
-</div>
+<div class="padded">[content]</div><!-- .padded -->
+</div><!-- .span4 -->
 
 <div class="span4 placeholder">
-</div>
+<div class="padded">[content]</div><!-- .padded -->
+</div><!-- .span4 -->
 
 <div class="span4 placeholder">
-</div>
+<div class="padded">[content]</div><!-- .padded -->
+</div><!-- .span4 -->
 
 </div><!-- .row -->
 </div><!-- .container -->
 
 
-
+<!-- .container > .row > .spans -->
 <div class="container">
 <div class="row">
 
 <div class="span8 placeholder">
-<div class="padded">
-<txp:output_form form="if_search" />
-</div><!-- .padded -->
+<div class="padded"><txp:output_form form="if_search" /></div><!-- .padded -->
 </div><!-- .span8 -->
 
 <div class="span4 placeholder">
+<div class="padded">[content]</div><!-- .padded -->
 </div><!-- .span8 -->
 </div>
 
