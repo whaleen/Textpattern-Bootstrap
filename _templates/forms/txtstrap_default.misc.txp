@@ -8,3 +8,19 @@
 <p><a href="https://github.com/whaleen/txtstrap" class="btn btn-primary btn-large"><i class="icon-github"></i> Learn more »</a></p>
 
 </div>
+
+
+
+<!-- .row > .spans -->
+<div class="row">
+
+<div class="span8 placeholder">
+<div class="padded"><txp:article_custom limit="1" /></div><!-- .padded -->
+</div><!-- .span8 -->
+
+<div class="span4">
+<txp:output_form form="snip_login_form" />
+</div><!-- .span8 -->
+</div>
+
+</div><!-- .row -->

@@ -2,6 +2,13 @@
 <script src="<txp:site_url />txtstrap/assets/jquery/jquery-1.8.3.js"></script>
 <script src="<txp:site_url />txtstrap/assets/bootstrap/js/bootstrap.js"></script>
 
+<!--  Scale headings to fit parent element  https://github.com/davatron5000/FitText.js -->
+
+<script src="<txp:site_url />txtstrap/assets/fittext/fittext.js"></script>
+<script>
+  $(".fittext").fitText();
+</script>
+
 <!-- Grid overlay for development http://bohemianalps.com/tools/grid/ Hugrid -->
 <script src="<txp:site_url />txtstrap/assets/headsupgrid/hugrid.js"></script>
 <script src="<txp:site_url />txtstrap/assets/headsupgrid/bootstrap-hugrid-config.js"></script>

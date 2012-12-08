@@ -1,9 +1,11 @@
+/* outlines an element: used to highlight div blocks during developement */
 .placeholder {
 outline:1px solid #eee;
-min-height: 100px;
-margin-bottom: 20px;
+min-height: 100px; /* better visibility if element is empty of content*/
+margin-bottom: 20px; /* pushes next rows down to keep some elbow room */
 }
 
+/* a companion to .placeholder: adds padding within an element outlined by the .placeholder class */
 .padded {padding:20px;}
 
-
+.fitimage {width: 100%;}

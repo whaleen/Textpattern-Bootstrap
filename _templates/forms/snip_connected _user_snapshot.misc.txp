@@ -1,0 +1,14 @@
+<div class="row">
+<div class="span2">
+<img class="img-polaroid  fitimage" src="<txp:glx_gravatar email='<txp:cbe_frontauth_whois type="email" />' format="url" size="492" />" />
+</div>
+
+
+<div class="span2">
+<h1 class="fittext"><txp:cbe_frontauth_whois type="RealName" format="" wraptag="" break="" class="" breakclass="" /></h1>
+<txp:cbe_frontauth_whois type="name" format="" wraptag="" break="" class="" breakclass="" />
+<txp:cbe_frontauth_whois type="privs" format="" wraptag="" break="" class="" breakclass="" />
+<txp:cbe_frontauth_whois type="last_access" format="" wraptag="" break="" class="" breakclass="" />
+</div>
+
+</div>
