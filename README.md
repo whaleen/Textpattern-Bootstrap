@@ -8,13 +8,17 @@ Textpattern on Twitter Bootstrap, or the other way around.
 
 1. Install [Textpattern](http://textpattern.com/).
 2. Drop [/texstrap](https://github.com/whaleen/txtstrap) in the root directory of your Textpattern project.
-3. Install Textpattern plugin [cnk_versioning](https://gist.github.com/4128491) and edit it's source to point to [/txtstrap/_templates](https://github.com/whaleen/txtstrap/tree/master/_templates) 
+3. Install Textpattern plugin [cnk_versioning](https://gist.github.com/4128491) and edit the path in it's source to point to [/txtstrap/_templates](https://github.com/whaleen/txtstrap/tree/master/_templates) 
 
 
 
 ## /textrap directories explained
 
 ### /_templates
+
+* /css
+* /forms
+* /pages
 
 Textpattern templates are made up of pages, forms, and css*, all of which can essentially be thought of as files and can be edited as such from within this _templates folder using your favorite editor. This wouldn't be possible with the Textpattern plugin cnk_versioning. Textpattern pages, forms, and css in default Textpattern installations are stored in the database and are meant to be editable from the Textpattern admin interface which is not conducive to coding in your own familiar environment, hence the necessity to use cnk_versioning which bridges the gap between the default database storage of said 'files' and the external 'file' system we are using here in /_templates.
 
