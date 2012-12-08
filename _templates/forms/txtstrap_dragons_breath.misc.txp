@@ -14,4 +14,24 @@
 <script src="<txp:site_url />txtstrap/assets/headsupgrid/bootstrap-hugrid-config.js"></script>
 
 
+<script src="<txp:site_url />/txtstrap/assets/sharre/jquery.sharrre-1.3.4.js"></script>
 
+<script>
+$('#shareme').sharrre({
+  share: {
+    googlePlus: true,
+    facebook: true,
+    twitter: true,
+    linkedin: true
+  },
+  buttons: {
+    googlePlus: {size: 'tall'},
+    facebook: {layout: 'box_count'},
+    twitter: {count: 'vertical'},
+    linkedin: {counter: 'top'}
+  },
+  enableHover: false,
+  enableCounter: false,
+  enableTracking: true
+});
+</script>

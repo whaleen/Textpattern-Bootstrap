@@ -27,8 +27,13 @@
 
 
 
-<style>.elbow-room {width: 350px;}</style>
 
-<script>
-$('.elbow-room').width($('.elbow-room').width() - 20);​
-</script>
+
+<style>
+share-buttons{
+
+  }
+  .sharrre .button{
+    float:left;
+    width:60px;
+  }</style>
