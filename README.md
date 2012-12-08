@@ -5,7 +5,7 @@ Twitter Bootstrap for Textpattern.
 
 This is not a theme per se. It is meant for fresh installs by designers and developers who generally begin a Textpattern project with empty pages and forms.
 
-It does have a few components that a Textpattern designer will be able to use right off. Namely, responsive scaffolding, a navigation bar, a series of 'content-goes-here' blocks, and a footer. The 'content-goes-here' blocks are set up to illustrate the way in which all div elements will tile throughout your responsive design. They are also meant to be placeholders for called forms via the txp:output_form tag. Take em or leave em.
+It does have a few components that a Textpattern designer will be able to use right off. Namely, responsive scaffolding, a navigation bar, a series of 'content-goes-here' blocks, and a footer. The 'content-goes-here' blocks are set up to illustrate the way in which all div elements will tile throughout your responsive design. They are also meant to be placeholders for calling forms via the txp:output_form tag. Try some out. Develop some to your purpose. Delete the unused.
 
 ### Forms with the prefix *snip* (snip_breadcrumbs, snip_fixed_navigation, etc…) 
 
