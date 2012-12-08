@@ -22,6 +22,14 @@ Breadcrumbs: txtstrap/_templates/forms/snip_breadcrumbs.misc.txp
 
 
 <!--
+Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
+============================================================================ -->
+<div class="container"><!-- if any -->
+<txp:output_form form="snip_search_results" />
+</div>
+
+
+<!--
 Main Content: Supporting Textpattern's default sections.
 Begin work...
 ======================================================= -->
