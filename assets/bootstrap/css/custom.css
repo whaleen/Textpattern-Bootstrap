@@ -8,51 +8,9 @@ margin-bottom: 20px; /* pushes next rows down to keep some elbow room */
 /* a companion to .placeholder: adds padding within an element outlined by the .placeholder class */
 .padded {padding:20px;}
 
-.fitimage {padding: -20px;}
-
 
 /* Make h1 titles, which are links, not blue */
 h1 a, h1 a:hover {
 color: #333;
 text-transform: capitalize;
-}
-
-
-@media (min-width: 1200px) { 
-  .span-elbow-room12 {
-    width: 1170px;
-  }
-  .span-elbow-room11 {
-    width: 1070px;
-  }
-  .span-elbow-room10 {
-    width: 970px;
-  }
-  .span-elbow-room9 {
-    width: 870px;
-  }
-  .span-elbow-room8 {
-    width: 770px;
-  }
-  .span-elbow-room7 {
-    width: 670px;
-  }
-  .span-elbow-room6 {
-    width: 570px;
-  }
-  .span-elbow-room5 {
-    width: 470px;
-  }
-  .span-elbow-room4 {
-    width: 350px;
-  }
-  .span-elbow-room3 {
-    width: 270px;
-  }
-  .span-elbow-room2 {
-    width: 170px;
-  }
-  .span-elbow-room1 {
-    width: 70px;
-  }
 }

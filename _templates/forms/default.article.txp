@@ -27,15 +27,15 @@
 
 <div class="row-fluid">
 
-<div class="span-elbow-room4 placeholder">stuff</div><!-- .span4 -->
+<div class="span6 placeholder">stuff</div><!-- .span4 -->
 
-<div class="span-elbow-room4 placeholder">
+<div class="span6">
 
 <div class="media">
 <a class="pull-left" href="#"><txp:glx_gravatar email='<txp:gho_author_email/>'  class="media-object thumbnail"/></a>
 <div class="media-body">
 <h4 class="media-heading"><txp:author /></h4>
-<p class="muted"><small><i class="icon-user"></i> <txp:author title="0" /></small></p> 
+<p class="muted"><small><txp:author title="0" /></small></p> 
 </div>
 </div>
 
