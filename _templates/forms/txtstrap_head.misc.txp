@@ -24,3 +24,11 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-	icon-114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="<txp:site_url />txtstrap/assets/bootstrap/ico/apple-touch-icon-57-precomposed.png">
+
+
+
+<style>.elbow-room {width: 350px;}</style>
+
+<script>
+$('.elbow-room').width($('.elbow-room').width() - 20);​
+</script>

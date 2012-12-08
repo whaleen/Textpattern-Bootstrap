@@ -18,8 +18,9 @@ Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
 <!--
 Breadcrumbs: txtstrap/_templates/forms/snip_breadcrumbs.misc.txp
 ============================================================================ -->
+<div class="container">
 <txp:output_form form="snip_breadcrumbs" />
-
+</div>
 
 <!--
 Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp

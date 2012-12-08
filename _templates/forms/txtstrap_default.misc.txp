@@ -1,4 +1,5 @@
 <!-- Main hero unit for a primary marketing message or call to action -->
+<div class="row-fluid">
 <div class="hero-unit">
 
 <h1>textstrap</h1>
@@ -8,11 +9,11 @@
 <p><a href="https://github.com/whaleen/txtstrap" class="btn btn-primary btn-large"><i class="icon-github"></i> Learn more »</a></p>
 
 </div>
+</div>
 
 
-
-<!-- .row > .spans -->
-<div class="row">
+<!-- .row-fluid > .spans -->
+<div class="row-fluid">
 
 <div class="span8 placeholder">
 <div class="padded"><txp:article_custom limit="1" /></div><!-- .padded -->
@@ -23,4 +24,4 @@
 </div><!-- .span8 -->
 </div>
 
-</div><!-- .row -->
+</div><!-- .row-fluid -->

@@ -25,11 +25,11 @@
 <hr />
 
 
-<div class="row">
+<div class="row-fluid">
 
-<div class="span4 placeholder">stuff</div><!-- .span4 -->
+<div class="span-elbow-room4 placeholder">stuff</div><!-- .span4 -->
 
-<div class="span4 placeholder">
+<div class="span-elbow-room4 placeholder">
 
 <div class="media">
 <a class="pull-left" href="#"><txp:glx_gravatar email='<txp:gho_author_email/>'  class="media-object thumbnail"/></a>
@@ -42,4 +42,4 @@
 </div><!-- .span4 -->
 
 
-</div><!-- .row -->
+</div><!-- .row-fluid -->
