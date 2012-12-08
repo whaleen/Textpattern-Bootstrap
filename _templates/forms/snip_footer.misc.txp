@@ -1,6 +1,2 @@
-<footer class="footer">
-<div class="container">
 <p class="pull-right"><a href="#">Back to top</a></p>
-<p>cobbled together by <a href="http://twitter.com/whaleen" target="_blank">@whaleen</a>.</p>
-</div><!-- .container -->
-</footer>
+<p>For the love of <a href="http://textpattern.com">Textpattern</a>, <a href="http://twitter.com/whaleen" target="_blank">@whaleen</a>.</p>

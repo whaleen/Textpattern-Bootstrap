@@ -13,7 +13,7 @@ These little pieces are called variously with the txp:output_form tag into the d
 
 ###forms with the prefix *txtstrap* (txtstrap_head, txtstrap_default, txtstrap_footer, etc…)
 
-Forms with this prefix are more geared toward the structural future of your design and as such are also written for the minimum purpose. 
+Forms with this prefix are more geared toward the structural future of your design and as such are also written for the minimum purpose.
 
 ## Install
 
