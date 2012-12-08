@@ -19,6 +19,10 @@
 		</ul>
 <hr />
 
+<form action="/textstrap.dev/" method="post">
+<input type="submit" value="Logout" class="publish"><input type="hidden" value="1" name="p_logout">
+</form>
+
 </div>		
     </div>
   </li>
