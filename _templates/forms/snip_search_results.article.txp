@@ -1,8 +1,6 @@
 <txp:if_search>
 
 
-
-
 <!-- count how many results return -->
   <txp:article limit="2" pgonly="1" />
 
@@ -27,7 +25,7 @@
 
 </txp:if_search_results>
 
-<!-- display resulting articles (10 per page) -->
+<!-- display resulting articles (2 per page) -->
   <txp:article limit="2">
 
     <txp:if_first_article><ul id="article-list"></txp:if_first_article>
@@ -42,27 +40,21 @@
         <txp:else />
           <p><txp:search_result_excerpt /></p>
         </txp:if_excerpt>
-
-        <p><txp:text item="posted" /> <time datetime="<txp:posted format='iso8601' />"><txp:posted /></time>, <txp:text item="author" /> <span><txp:author link="1" this_section="1" /></span></p>
       </li>
     <txp:if_last_article></ul></txp:if_last_article>
 
   </txp:article>
 
+
+
 <!-- check if there are further results and provide pagination links or disabled buttons depending on the result,
   this method is more flexibile than using simple txp:older/txp:newer tags -->
-  <txp:if_search_results min="3">
+<txp:if_search_results min="3">
   
-  
-
-            
-            
-            
-
     <txp:variable name="prev" value='<txp:older />' />
     <txp:variable name="next" value='<txp:newer />' />
     
-    <div class="pagination">
+    <div class="pagination pagination-centered">
 	<ul>		    
     <txp:if_variable name="next" value="">
 		<li class="disabled"><a href="#">« previous</a></li>
@@ -78,12 +70,8 @@
     </txp:if_variable>
     </ul>
     </div>
-  
-  
-  
+
 </txp:if_search_results>
 
-
-            
 
 </txp:if_search>
