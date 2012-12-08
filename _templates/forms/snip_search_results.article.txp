@@ -1,4 +1,8 @@
+
+
 <txp:if_search>
+
+<div class="padded">
 
 
 <!-- count how many results return -->
@@ -25,6 +29,9 @@
 
 </txp:if_search_results>
 
+
+
+
 <!-- display resulting articles (2 per page) -->
   <txp:article limit="2">
 
@@ -50,6 +57,8 @@
 <!-- check if there are further results and provide pagination links or disabled buttons depending on the result,
   this method is more flexibile than using simple txp:older/txp:newer tags -->
 <txp:if_search_results min="3">
+
+<hr />
   
     <txp:variable name="prev" value='<txp:older />' />
     <txp:variable name="next" value='<txp:newer />' />
@@ -73,5 +82,7 @@
 
 </txp:if_search_results>
 
+</div>
 
 </txp:if_search>
+
