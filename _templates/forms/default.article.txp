@@ -24,24 +24,30 @@
 
 <div class="span6">
 <h4><txp:title /></h4>
+<small class="muted">Published <txp:posted /> under:</small>
 <!-- only display categories if they are actually set for an article, otherwise omit -->
 <txp:if_article_category>
 <p class="muted"><i class="icon-tags"></i> <span><txp:category1 title="1" link="1" /><txp:if_article_category number="1"><txp:if_article_category number="2">, </txp:if_article_category></txp:if_article_category><txp:category2 title="1" link="1" /></span></p>
 </txp:if_article_category>
+
+<h4>Bookmark / Share</h4>
+<div id="share-buttons">
+  <div id="shareme" data-url="<txp:permlink />" data-text="<txp:title /> by <txp:author />"></div>
+</div>
 	
-</div><!-- .span4 -->
+</div><!-- .span6 -->
 
 <div class="span6">
 
 <div class="media">
-<a class="pull-left" href="#"><txp:glx_gravatar email='<txp:gho_author_email/>'  class="media-object thumbnail"/></a>
+<a class="pull-left" href="#"><txp:glx_gravatar email='<txp:gho_author_email/>'  class="media-object thumbnail span1"/></a>
 <div class="media-body">
 <h4 class="media-heading"><txp:author /><br><small>Author</small></h4>
 <p class="muted"><small><txp:author title="0" /></small></p> 
 </div>
 </div>
 
-</div><!-- .span4 -->
+</div><!-- .span6 -->
 
 
 </div><!-- .row-fluid -->
