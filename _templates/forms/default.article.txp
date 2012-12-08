@@ -1,7 +1,11 @@
 <txp:if_individual_article>
-  <h1><txp:title /></h1>
+
+<h1><txp:title /></h1>
+
 <txp:else />
-  <h1><a href="<txp:permlink />"><txp:title /></a></h1>
+
+<h1><a href="<txp:permlink />"><txp:title /></a></h1>
+
 </txp:if_individual_article>
 
 
@@ -9,7 +13,7 @@
 <txp:body />
 </div>
 
-<p><i class="icon-user"></i> <span><txp:author /></span>
+
 
 <!-- only display categories if they are actually set for an article, otherwise omit -->
 <txp:if_article_category>
@@ -17,3 +21,25 @@
 </txp:if_article_category>
 
 </p>
+
+<hr />
+
+
+<div class="row">
+
+<div class="span4 placeholder">stuff</div><!-- .span4 -->
+
+<div class="span4 placeholder">
+
+<div class="media">
+<a class="pull-left" href="#"><txp:glx_gravatar email='<txp:gho_author_email/>'  class="media-object thumbnail"/></a>
+<div class="media-body">
+<h4 class="media-heading"><txp:author /></h4>
+<p class="muted"><small><i class="icon-user"></i> <txp:author title="0" /></small></p> 
+</div>
+</div>
+
+</div><!-- .span4 -->
+
+
+</div><!-- .row -->

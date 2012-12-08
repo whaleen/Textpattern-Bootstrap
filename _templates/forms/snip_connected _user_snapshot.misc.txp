@@ -6,6 +6,7 @@
 
 
 <div class="span2">
+
 <h1 class="fittext"><txp:cbe_frontauth_whois type="RealName" format="" wraptag="" break="" class="" breakclass="" /></h1>
 <txp:cbe_frontauth_whois type="name" format="" wraptag="" break="" class="" breakclass="" />
 <txp:cbe_frontauth_whois type="privs" format="" wraptag="" break="" class="" breakclass="" />
