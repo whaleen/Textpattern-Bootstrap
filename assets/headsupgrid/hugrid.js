@@ -110,12 +110,13 @@
     $('#hugridRows div.hugrow').css('margin-top', (rowheight - 1) + 'px');
 
     /* Create hugridUX and button */
+    /* Additional i.class added: dependent upon Font Awesome and Twitter Bootstrap CSS references in your document */
     var hugridUX = document.createElement("div");
     hugridUX.id = "hugridUX";
     document.body.appendChild(hugridUX);
     $('#hugridUX').append('<div id="hugridButtonBkgd"></div><button id="hugridButton"></button>');
-    $('#hugridButton').append('<span id="hugbuttonON">ON</span>');
-    $('#hugridButton').append('<span id="hugbuttonOFF" style="display:none;">OFF</span>');
+    $('#hugridButton').append('<span id="hugbuttonON"><i class=" icon-th icon-large"></i></span>');
+    $('#hugridButton').append('<span id="hugbuttonOFF" style="display:none;"><i class=" icon-th icon-large"></i></span>');
 
     /* On/Off Button - click functionality */
     $('#hugridButton').click(function () {

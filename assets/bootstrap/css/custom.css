@@ -8,4 +8,12 @@ margin-bottom: 20px; /* pushes next rows down to keep some elbow room */
 /* a companion to .placeholder: adds padding within an element outlined by the .placeholder class */
 .padded {padding:20px;}
 
-.fitimage {width: 100%;}
+.fitimage {padding: -20px;}
+
+
+
+/* Make h1 titles, which are links, not blue */
+h1 a, h1 a:hover {
+color: #333;
+text-transform: capitalize;
+}
