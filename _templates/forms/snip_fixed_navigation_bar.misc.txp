@@ -26,7 +26,7 @@
 
 </ul><!-- ul.nav -->
 
-<txp:search_input form="snip_search_input" section="articles" />    	
+<txp:search_input form="snip_search_input" />    	
 </div><!-- /.nav-collapse -->
 
 </div><!-- /.container -->
