@@ -1,7 +1,7 @@
 txtstrap
 ========
 
-Textpattern on Twitter Bootstrap, or the other way around.
+Twitter Bootstrap for Textpattern.
 
 
 ## Install
@@ -20,7 +20,7 @@ Textpattern on Twitter Bootstrap, or the other way around.
 * /forms
 * /pages
 
-Textpattern templates are made up of pages, forms, and css*, all of which can essentially be thought of as files and can be edited as such from within this _templates folder using your favorite editor. This wouldn't be possible with the Textpattern plugin cnk_versioning. Textpattern pages, forms, and css in default Textpattern installations are stored in the database and are meant to be editable from the Textpattern admin interface which is not conducive to coding in your own familiar environment, hence the necessity to use cnk_versioning which bridges the gap between the default database storage of said 'files' and the external 'file' system we are using here in /_templates.
+Textpattern templates are made up of pages, forms, and css*, all of which can essentially be thought of as files and can be edited as such from within this _templates folder using your favorite editor. This wouldn't be possible with the Textpattern plugin cnk_versioning. Textpattern pages, forms, and css are stored in the database and are meant to be editable from the Textpattern admin interface. This is not conducive to coding in your own familiar environment, hence the necessity to use cnk_versioning. It bridges the gap between the default database storage of said 'files' and the external 'file' system we are using here in /_templates.
 
 * All references to stylesheets in the template files are references to external css files (bootsrap.css, font-awesome.css, etc…). Only pages and forms will be "synced" with cnk_versioning to the database where they are available to Textpattern for producing your views.
 
@@ -39,5 +39,3 @@ All references to these assets are in the the /_templates/forms/head.misc.txp an
 * /txp-plugins
 
 A collection of plugins which are required by certain Textpattern usage examples. For instance, the Textpattern plugin mem_self_register gives us a tag which allows us to put a sign-up form in a page. The required plugins are noted in the template code.
-
-The only mandatory plugin for using txtstrap as it is out of the box is cnk_versioning.
