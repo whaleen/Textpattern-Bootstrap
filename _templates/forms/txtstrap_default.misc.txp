@@ -1,91 +1,10 @@
-<txp:if_category>
+<!-- Main hero unit for a primary marketing message or call to action -->
+<div class="hero-unit">
 
-<txp:article form="article_listing" />
+<h1>Hello, world!</h1>
 
-<txp:else />
+<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
 
+<p><a class="btn btn-primary btn-large">Learn more »</a></p>
 
-<txp:if_individual_article>
-
-
-<!-- .container > .row > .spans -->
-<div class="container">
-<div class="row">
-
-<div class="span8">
-<txp:article />
-</div><!-- .span8 -->
-
-<div class="span4">
-<txp:article form="article_listing" />
-</div><!-- .span4 -->
-
-
-</div><!-- .row -->
-</div><!-- .container -->
-
-
-<txp:else />  
-
-<!-- .container > .row > .spans -->
-<div class="container">
-<div class="row">
-
-<div class="span8">
-<h1>textstrap</h1>
-
-<p class="lead">For people who build websites with <a href="">Textpattern</a> and use, or would like to use, <a href="">Twitter Bootstrap</a>, and a few other odds and ends.</p>
-</div><!-- .span8 -->
-
-<div class="span4">
-<txp:article_custom form="article_listing" />
-</div><!-- .span4 -->
-
-</div><!-- .row -->
-</div><!-- .container -->
-
-
-
-
-
-<!-- .container > .row > .spans -->
-<div class="container">
-<div class="row">
-
-<div class="span4 placeholder">
-<div class="padded">[content]</div><!-- .padded -->
-</div><!-- .span4 -->
-
-<div class="span4 placeholder">
-<div class="padded">[content]</div><!-- .padded -->
-</div><!-- .span4 -->
-
-<div class="span4 placeholder">
-<div class="padded">[content]</div><!-- .padded -->
-</div><!-- .span4 -->
-
-</div><!-- .row -->
-</div><!-- .container -->
-
-
-<!-- .container > .row > .spans -->
-<div class="container">
-<div class="row">
-
-<div class="span8 placeholder">
-<div class="padded"><txp:output_form form="if_search" /></div><!-- .padded -->
-</div><!-- .span8 -->
-
-<div class="span4 placeholder">
-<div class="padded">[content]</div><!-- .padded -->
-</div><!-- .span8 -->
 </div>
-
-</div><!-- .row -->
-</div><!-- .container -->
-
-
-
-</txp:if_individual_article>
-
-</txp:if_category>

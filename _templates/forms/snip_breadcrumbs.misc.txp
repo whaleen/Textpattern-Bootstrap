@@ -1,0 +1,14 @@
+<div class="container">
+<div class="row">
+
+<div class="span12">
+<ul class="breadcrumb">
+<li><a href="<txp:site_url />">Home</a> <span class="divider">/</span></li>
+<txp:if_section><li><a href="<txp:site_url /><txp:section />"><txp:section title="1" /></a> <span class="divider">/</span></li></txp:if_section><txp:if_category><li><a href="<txp:site_url /><txp:category />"><txp:category title="1" /></a> <span class="divider">/</span></li></txp:if_category><txp:if_individual_article><li class="active"><txp:title /></li>
+</txp:if_individual_article>
+</ul>
+</div><!-- .span12 -->
+
+
+</div><!-- .row -->
+</div><!-- .container -->

@@ -1,9 +1,0 @@
-<form method="get" action="http://localhost:8888/textstrap.dev/">
-
-<div class="input-append">
-<!-- name attribute on input element required by textpattern -->
-  <input id="appendedInputButtons" type="search" name="q" placeholder="Type to Search">
-  <button class="btn btn-success" type="submit">Search</button>
-</div>
-
-</form>

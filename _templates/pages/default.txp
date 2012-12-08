@@ -1,49 +1,63 @@
 <!doctype html>
 <html lang="<txp:lang />">
 
+
+<!--
+Head: txtstrap/_templates/forms/txtstrap_head.misc.txp
+======================================================== -->
 <head><txp:output_form form="txtstrap_head" /></head>
 
 <body>
 
-<!-- Primary Navigation (Fixed Nav Bar)-->
-<txp:output_form form="txtstrap_nav" />
+<!--
+Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
+============================================================================ -->
+<txp:output_form form="snip_fixed_navigation_bar" />
 
 
+<!--
+Breadcrumbs: txtstrap/_templates/forms/snip_breadcrumbs.misc.txp
+============================================================================ -->
+<txp:output_form form="snip_breadcrumbs" />
 
-<!-- -->
 
-<!-- If Default Section -->
+<!--
+Main Content: Supporting Textpattern's default sections.
+Begin work...
+======================================================= -->
+
 <txp:if_section name="default">
+<!-- Default -->
 <div class="container">
 <txp:output_form form="txtstrap_default" />
-
 </div>
 </txp:if_section>
 
-<!-- If About Section -->
 <txp:if_section name="about">
+<!-- About -->
 <div class="container">
 <txp:output_form form="txtstrap_about" />
 </div>
 </txp:if_section>
 
-
-<!-- If Articles Section -->
 <txp:if_section name="articles">
+<!-- Articles -->
 <div class="container">
 <txp:output_form form="txtstrap_articles" />
 </div>
 </txp:if_section>
 
-<!-- -->
 
 
+<!-- 
+Footer: txtstrap/_templates/forms/txtstrap_footer.misc.txp
+============================================================ -->
+<txp:output_form form="snip_footer" />
 
-<!-- Footer-->
-<txp:output_form form="txtstrap_footer" />
-
-<!-- Javascripts -->
-<txp:output_form form="txtstrap_javascripts" />
+<!-- 
+Dragon's Breath: txtstrap/_templates/forms/txtstrap_dragons_breath.misc.txp
+============================================================ -->
+<txp:output_form form="txtstrap_dragons_breath" />
 
 </body>
 </html>

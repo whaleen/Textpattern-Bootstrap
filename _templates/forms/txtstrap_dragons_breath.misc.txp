@@ -1,14 +1,7 @@
-<!-- jQuery -->
+<!-- jQuery & Twitter Bootstrap's bootstrap.js (2.2.1) -->
 <script src="<txp:site_url />txtstrap/assets/jquery/jquery-1.8.3.js"></script>
-	
-<!-- Twitter Bootsrap -->
 <script src="<txp:site_url />txtstrap/assets/bootstrap/js/bootstrap.js"></script>
 
-<!-- Prettyprint -->	
-<script src="<txp:site_url />txtstrap/assets/prettify/prettify.js"></script>
-
-<!-- Grid overlay for development http://bohemianalps.com/tools/grid/ -->
+<!-- Grid overlay for development http://bohemianalps.com/tools/grid/ Hugrid -->
 <script src="<txp:site_url />txtstrap/assets/headsupgrid/hugrid.js"></script>
-
-<!-- Hugrid -->
 <script src="<txp:site_url />txtstrap/assets/headsupgrid/bootstrap-hugrid-config.js"></script>
