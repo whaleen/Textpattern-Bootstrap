@@ -77,8 +77,11 @@ Begin work...
 <txp:article />
 
 <txp:else />
+
 <txp:output_form form="txtstrap_articles" />
+
 </txp:if_individual_article>
+
 </div><!-- /.container -->
 </txp:if_section>
 

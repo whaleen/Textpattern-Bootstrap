@@ -1,34 +1,85 @@
 <!doctype html>
 <html lang="<txp:lang />">
 
-<head>
-<txp:output_form form="head" />
-</head>
 
-<body id="<txp:if_section name=""><txp:if_search>search<txp:else />front</txp:if_search><txp:else /><txp:section /></txp:if_section>-page">
+<!--
+Head: txtstrap/_templates/forms/txtstrap_head.misc.txp
+======================================================== -->
+<head><txp:output_form form="txtstrap_head" /></head>
+
+<body>
+
+<!--
+Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
+============================================================================ -->
+<txp:output_form form="snip_fixed_navigation_bar" />
+
+
+<!--
+Breadcrumbs: txtstrap/_templates/forms/snip_breadcrumbs.misc.txp
+============================================================================ -->
+<div class="container">
+<txp:output_form form="snip_breadcrumbs" />
+</div>
+
+<!--
+Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
+============================================================================ -->
+<div class="container"><!-- if any -->
+<txp:output_form form="snip_search_results" />
+</div>
+
+
+<!--
+Category Landing: txtstrap/_templates/forms/snip_category_landing.misc.txp
+============================================================================ -->
+<txp:if_category>
+<div class="container"><!-- if any -->
+<txp:output_form form="snip_category_landing" />
+</div>
+</txp:if_category>
+
+<!--
+Main Content: Error City...
+======================================================= -->
 
 <div class="container">
-  
-<txp:output_form form="masthead" />
-
-<!-- Main content -->
-
-<div class="row-fluid">
-
-<h1 class="error-status"><txp:error_status /></h1>
-<p class="error-msg"><txp:error_message /></p>
-    
-</div> <!-- .row-fluid -->
 
 
-<txp:output_form form="footer" />
+<div class="alert alert-block fade in">
+
+<button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>
+
+<h1 class="error-status alert-heading"><txp:error_status /></h1>
+
+<p><p class="error-msg"><txp:error_message /></p></p>
+
+</div>
+
+<div class="row">
+<div class="span4">
+<txp:output_form form="snip_search_input" />
+</div>
+</div>
+
+</div> <!-- .container -->
 
 
 
-</div> <!-- /container -->
+<!-- 
+Footer: txtstrap/_templates/forms/txtstrap_footer.misc.txp
+============================================================ -->
+<div class="container">
+<txp:output_form form="snip_footer" />
+</div>
 
-<!-- Here be Javascripts -->
-<txp:output_form form="dragons_breath" />
+<!-- 
+Dragon's Breath: txtstrap/_templates/forms/txtstrap_dragons_breath.misc.txp
+============================================================ -->
+<txp:output_form form="txtstrap_dragons_breath" />
 
 </body>
 </html>
+
+
+

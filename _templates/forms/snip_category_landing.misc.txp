@@ -1,1 +1,3 @@
-category stuff
+
+	<h1><txp:category title="1" /></h1>
+	<txp:article form="article_listing" />

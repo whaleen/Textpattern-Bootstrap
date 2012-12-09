@@ -1,21 +1,18 @@
 <txp:if_first_article>
-
-<h2>Article Listing</h2>
-
-<ul class="unstyled">
-
+<div class="row">
+<div class="span4 placeholder">
 </txp:if_first_article>
 
-<li>
 
+<div class="padded">
 <h4><a href="<txp:permlink />"><txp:title /></a></h4>
-
 <p class="muted">Posted <txp:posted />, by <span itemprop="author"><txp:author /></span></p>
 
-</li>
+</div>
+
 
 <txp:if_last_article>
 
-</ul>
-
+</div>
+</div>
 </txp:if_last_article>

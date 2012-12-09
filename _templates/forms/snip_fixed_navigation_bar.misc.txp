@@ -26,7 +26,10 @@
 
 </ul><!-- ul.nav -->
 
+<div class="pull-right">
 <txp:search_input form="snip_search_input" />    	
+</div>
+
 </div><!-- /.nav-collapse -->
 
 </div><!-- /.container -->
