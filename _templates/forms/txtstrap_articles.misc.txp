@@ -4,6 +4,6 @@
 
 <txp:else />  
 
-<txp:article form="article_listing" />
+<txp:article form="snip_article_listing" />
 
 </txp:if_individual_article>
