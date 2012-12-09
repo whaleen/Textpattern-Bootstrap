@@ -1,0 +1,19 @@
+<txp:if_first_article>
+<div class="row">
+
+</txp:if_first_article>
+
+<div class="span4 placeholder">
+<div class="padded">
+
+<h4><a href="<txp:permlink />"><txp:title /></a></h4>
+<p class="muted">Posted <txp:posted />, by <span itemprop="author"><txp:author /></span></p>
+
+</div>
+</div>
+
+<txp:if_last_article>
+
+
+</div>
+</txp:if_last_article>
