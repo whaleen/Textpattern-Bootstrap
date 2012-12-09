@@ -31,6 +31,15 @@ Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
 
 
 <!--
+Category Landing: txtstrap/_templates/forms/snip_category_landing.misc.txp
+============================================================================ -->
+<txp:if_category>
+<div class="container"><!-- if any -->
+<txp:output_form form="snip_category_landing" />
+</div>
+</txp:if_category>
+
+<!--
 Main Content: Supporting Textpattern's default sections.
 Begin work...
 ======================================================= -->
