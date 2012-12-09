@@ -1,3 +1,5 @@
+<h1><txp:category title="1" /></h1>
 
-	<h1><txp:category title="1" /></h1>
-	<txp:article form="article_listing" />
+<hr />
+	
+<txp:article form="snip_article_listing" />
