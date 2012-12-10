@@ -2,7 +2,7 @@
 <div class="row-fluid">
 <div class="hero-unit">
 
-<h1 class="fittext">textstrap</h1>
+<h1 id="responsive_headline" class="fittext" style="display: block;">textstrap</h1>
 
 <p>For those who build websites with Textpattern, want to use Twitter Bootstrap, like jQuery nearby, and want a little starter-kit containing these things and a few odd other handy things.</p>
 

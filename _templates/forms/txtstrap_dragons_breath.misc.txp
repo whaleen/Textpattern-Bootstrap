@@ -35,3 +35,5 @@ $('#shareme').sharrre({
   enableTracking: true
 });
 </script>
+
+<script>jQuery("#responsive_headline").fitText(1.2, { minFontSize: '50px', maxFontSize: '70px' })</script>
