@@ -35,13 +35,17 @@ Forms with this prefix are also written for the minimum purpose and that is to r
 
 ### [/_templates](https://github.com/whaleen/txtstrap/tree/master/_templates)
 
+Use [cnk_versioning](http://www.cnowak.de/works/txp_plugins/cnk_versioning_v0.1.7.txt) in order to run your templates out of some folders like this. Good to do as it make this template files easy to load into your favorite code editor.
+
 * /css (to be ignored)
 * [/forms](https://github.com/whaleen/txtstrap/tree/master/_templates/forms)
 * [/pages](https://github.com/whaleen/txtstrap/tree/master/_templates/pages)
 
-/pages and /forms are where the templating work starts. Ignore the /css directory as the CSS used in the templates is placed outside of the database in various directories - see [/txtstrap/_templates/txtstrap_head.misc.txp](https://github.com/whaleen/txtstrap/blob/master/_templates/forms/txtstrap_head.misc.txp)
+/pages and /forms are where the templating work starts. Ignore the /css directory as the CSS used in the templates is placed outside of the database in various directories - see [/txtstrap/_templates/txtstrap_head.misc.txp](https://github.com/whaleen/txtstrap/blob/master/_templates/forms/txtstrap_head.misc.txp) for the stylesheets in use.
 
 ### [/assets](https://github.com/whaleen/txtstrap/tree/master/assets)
+
+This is where Twitter Bootstrap, jQuery, and other assets are stored. The library if you will.
 
 * [/bootstrap](https://github.com/whaleen/txtstrap/tree/master/assets/bootstrap)
 * [/fitttext](https://github.com/whaleen/txtstrap/tree/master/assets/fittext)
@@ -50,10 +54,12 @@ Forms with this prefix are also written for the minimum purpose and that is to r
 * [/jquery](https://github.com/whaleen/txtstrap/tree/master/assets/jquery)
 * [/sharre](https://github.com/whaleen/txtstrap/tree/master/assets/sharre)
 
-All references to these assets are in the the /_templates/forms/head.misc.txp and /_templates/forms/footer.misc.txp forms. Therefore, any changes to the directory structure for your projects will only require updating those paths in order for txtstrap to still work on a drag-and-drop basis.
+All references to these assets are in the the /_templates/forms/head.misc.txp and /_templates/forms/footer.misc.txp forms and nowhere else so if you like to keep _templates somewhere else you know what to do.
 
 ### [/resources](https://github.com/whaleen/txtstrap/tree/master/resources)
 
+A place to keep things that you may need in your travels through the templating wilderness. A little leather satchel.
+
 * [/txp-plugins](https://github.com/whaleen/txtstrap/tree/master/resources/txp-plugins)
 
-A collection of plugins which are required by certain Textpattern usage examples. The required plugins are noted prominently in the template code.
+Only resource so far is a collection of plugins which are required by certain Textpattern usage examples. The required plugins are noted prominently in the template code.
