@@ -13,13 +13,16 @@ This is not a theme per se. It is meant for fresh installs by designers and deve
 
 It does have a few components that a designer will be able to use right off. Namely the responsive scaffolding, a navigation bar, a series of 'content-goes-here' blocks, and a footer. The 'content-goes-here' blocks are set up to illustrate the way in which all div elements will tile throughout your responsive design. They are also meant to be placeholders for calling forms via the txp:output_form tag. Try some out. Develop some to your purpose. Delete the unused. Rearrange the furniture.
 
+## Start Your Designering with Textpattern Forms
+
+
 ### Forms with the prefix *snip_* (snip_breadcrumbs, snip_fixed_navigation, etc…) 
 
 These little pieces are called variously with the txp:output_form tag into the div element of your choice. They each have a minimum purpose and are meant to be the barest of building blocks... common things you might need.
 
-###forms with the prefix *txtstrap_* (txtstrap_head, txtstrap_default, txtstrap_footer, etc…)
+###Forms with the prefix *txtstrap_* (txtstrap_head, txtstrap_default, txtstrap_footer, etc…)
 
-Forms with this prefix are more geared toward the structure of the design and as such are also written for the minimum purpose.
+Forms with this prefix are also written for the minimum purpose and that is to render the scafollding for each section. In the default page template _templates/pages/default.txp, there is a txp:if_section conditional and a form to output for the corosponding form (textstrap_default.txp, textstrap_about.txp, textstrap_articles.txp, etc... ). Go forth and thrash...
 
 ## Install
 
