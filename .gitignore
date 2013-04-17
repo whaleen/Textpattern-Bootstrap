@@ -9,3 +9,17 @@ sites/site*/public/theme/
 textpattern/
 HISTORY.txt
 README.txt
+
+# Who needs Mac OS X specific files? Nobody
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
