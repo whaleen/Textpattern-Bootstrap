@@ -1,9 +1,9 @@
 <txp:if_individual_article>
 
-<txp:article />
+    <txp:article />
 
-<txp:else />  
+    <txp:else />  
 
-<txp:article form="snip_article_listing" />
+    <txp:article form="snip_article_listing" />
 
 </txp:if_individual_article>
