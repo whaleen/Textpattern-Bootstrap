@@ -2,87 +2,87 @@
 
 <txp:if_search>
 
-<div class="padded">
+    <div class="padded">
 
 
-<!-- count how many results return -->
-  <txp:article limit="2" pgonly="1" />
+        <!-- count how many results return -->
+        <txp:article limit="2" pgonly="1" />
 
-  <txp:if_search_results>
+        <txp:if_search_results>
 
-<!-- if search result count greater than 200 then display excessive results message, otherwise show search result count -->
-    <txp:if_search_results max="200">
-      <h3><txp:search_result_count /> <txp:text item="matching_search_request" /> &#8216;<txp:search_term />&#8217;&#8230;</h3>
-    <txp:else />
-      <h3><txp:text item="too_common_search_term" /> &#8216;<txp:search_term />&#8217;</h3>
-    </txp:if_search_results>
+            <!-- if search result count greater than 200 then display excessive results message, otherwise show search result count -->
+            <txp:if_search_results max="200">
+                <h3><txp:search_result_count /> <txp:text item="matching_search_request" /> &#8216;<txp:search_term />&#8217;&#8230;</h3>
+                <txp:else />
+                <h3><txp:text item="too_common_search_term" /> &#8216;<txp:search_term />&#8217;</h3>
+            </txp:if_search_results>
 
-<!-- if no search results, then display no search results alert message -->
-<txp:else />
+            <!-- if no search results, then display no search results alert message -->
+            <txp:else />
 
-<div class="alert alert-warning fade in">
-<button type="button" class="close" data-dismiss="alert">×</button>
+            <div class="alert alert-warning fade in">
+                <button type="button" class="close" data-dismiss="alert">×</button>
 
-<h3><txp:text item="no_search_matches" /></h3>
+                <h3><txp:text item="no_search_matches" /></h3>
 
-</div>
+            </div>
 
-</txp:if_search_results>
-
-
-
-
-<!-- display resulting articles (2 per page) -->
-  <txp:article limit="2">
-
-    <txp:if_first_article><ul id="article-list"></txp:if_first_article>
-      <li>
-        <h4><a href="<txp:permlink />"><txp:title /></a></h4>
-
-<!-- if the article has an excerpt, display that, otherwise show highlighted keywords in context of article -->
-        <txp:if_excerpt>
-          <div>
-            <txp:excerpt />
-          </div>
-        <txp:else />
-          <p><txp:search_result_excerpt /></p>
-        </txp:if_excerpt>
-      </li>
-    <txp:if_last_article></ul></txp:if_last_article>
-
-  </txp:article>
+        </txp:if_search_results>
 
 
 
-<!-- check if there are further results and provide pagination links or disabled buttons depending on the result,
-  this method is more flexibile than using simple txp:older/txp:newer tags -->
-<txp:if_search_results min="3">
 
-<hr />
-  
-    <txp:variable name="prev" value='<txp:older />' />
-    <txp:variable name="next" value='<txp:newer />' />
-    
-    <div class="pagination pagination-centered">
-	<ul>		    
-    <txp:if_variable name="next" value="">
-		<li class="disabled"><a href="#">« previous</a></li>
-    <txp:else />
-		<li><a href="<txp:newer />">« previous</a></li>
-    </txp:if_variable>
-    
-    <txp:if_variable name="prev" value="">
-		<li class="disabled"><a href="#">next »</a></li>
-    <txp:else />
-	    <li><a href="<txp:older />">next »</a></li>
+        <!-- display resulting articles (2 per page) -->
+        <txp:article limit="2">
 
-    </txp:if_variable>
-    </ul>
+            <txp:if_first_article><ul id="article-list"></txp:if_first_article>
+            <li>
+                <h4><a href="<txp:permlink />"><txp:title /></a></h4>
+
+                <!-- if the article has an excerpt, display that, otherwise show highlighted keywords in context of article -->
+            <txp:if_excerpt>
+                <div>
+                    <txp:excerpt />
+                </div>
+                <txp:else />
+                <p><txp:search_result_excerpt /></p>
+            </txp:if_excerpt>
+            </li>
+            <txp:if_last_article></ul></txp:if_last_article>
+
+        </txp:article>
+
+
+
+        <!-- check if there are further results and provide pagination links or disabled buttons depending on the result,
+          this method is more flexibile than using simple txp:older/txp:newer tags -->
+        <txp:if_search_results min="3">
+
+            <hr />
+
+            <txp:variable name="prev" value='<txp:older />' />
+            <txp:variable name="next" value='<txp:newer />' />
+
+            <div class="pagination pagination-centered">
+                <ul>		    
+                    <txp:if_variable name="next" value="">
+                        <li class="disabled"><a href="#">« previous</a></li>
+                        <txp:else />
+                        <li><a href="<txp:newer />">« previous</a></li>
+                    </txp:if_variable>
+
+                    <txp:if_variable name="prev" value="">
+                        <li class="disabled"><a href="#">next »</a></li>
+                        <txp:else />
+                        <li><a href="<txp:older />">next »</a></li>
+
+                    </txp:if_variable>
+                </ul>
+            </div>
+
+        </txp:if_search_results>
+
     </div>
-
-</txp:if_search_results>
-
-</div>
 
 </txp:if_search>
 

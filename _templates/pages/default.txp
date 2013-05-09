@@ -2,16 +2,16 @@
 <html lang="<txp:lang />">
 
 
-<!--
-Head: txtstrap/_templates/forms/txtstrap_head.misc.txp
-======================================================== -->
-<head><txp:output_form form="txtstrap_head" /></head>
+    <!--
+    Head: txtstrap/_templates/forms/txtstrap_head.misc.txp
+    ======================================================== -->
+    <head><txp:output_form form="txtstrap_head" /></head>
 
 <body>
 
-<!--
-Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
-============================================================================ -->
+    <!--
+    Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
+    ============================================================================ -->
 <txp:output_form form="snip_fixed_navigation_bar" />
 
 
@@ -19,14 +19,14 @@ Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
 Breadcrumbs: txtstrap/_templates/forms/snip_breadcrumbs.misc.txp
 ============================================================================ -->
 <div class="container">
-<txp:output_form form="snip_breadcrumbs" />
+    <txp:output_form form="snip_breadcrumbs" />
 </div>
 
 <!--
 Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
 ============================================================================ -->
 <div class="container"><!-- if any -->
-<txp:output_form form="snip_search_results" />
+    <txp:output_form form="snip_search_results" />
 </div>
 
 
@@ -34,9 +34,9 @@ Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
 Category Landing: txtstrap/_templates/forms/snip_category_landing.misc.txp
 ============================================================================ -->
 <txp:if_category>
-<div class="container"><!-- if any -->
-<txp:output_form form="snip_category_landing" />
-</div>
+    <div class="container"><!-- if any -->
+        <txp:output_form form="snip_category_landing" />
+    </div>
 </txp:if_category>
 
 <!--
@@ -45,44 +45,38 @@ Begin work...
 ======================================================= -->
 
 <txp:if_section name="default">
-<!-- Section: Default -->
-<div class="container">
-<txp:if_individual_article>
-<txp:article />
-
-<txp:else />
-<txp:output_form form="txtstrap_default" />
-</txp:if_individual_article>
-</div><!-- /.container -->
+    <!-- Section: Default -->
+    <div class="container">
+        <txp:if_individual_article>
+            <txp:article />
+        <txp:else />
+            <txp:output_form form="txtstrap_default" />
+        </txp:if_individual_article>
+    </div><!-- /.container -->
 </txp:if_section>
 
 
 <txp:if_section name="about">
-<!-- Section: About -->
-<div class="container">
-<txp:if_individual_article>
-<txp:article />
-
-<txp:else />
-<txp:output_form form="txtstrap_about" />
-</txp:if_individual_article>
-</div><!-- /.container -->
+    <!-- Section: About -->
+    <div class="container">
+        <txp:if_individual_article>
+            <txp:article />
+        <txp:else />
+            <txp:output_form form="txtstrap_about" />
+        </txp:if_individual_article>
+    </div><!-- /.container -->
 </txp:if_section>
 
 
 <txp:if_section name="articles">
-<!-- Section: Articles -->
-<div class="container">
-<txp:if_individual_article>
-<txp:article />
-
-<txp:else />
-
-<txp:output_form form="txtstrap_articles" />
-
-</txp:if_individual_article>
-
-</div><!-- /.container -->
+    <!-- Section: Articles -->
+    <div class="container">
+        <txp:if_individual_article>
+            <txp:article />
+        <txp:else />
+            <txp:output_form form="txtstrap_articles" />
+        </txp:if_individual_article>
+    </div><!-- /.container -->
 </txp:if_section>
 
 
@@ -91,7 +85,7 @@ Begin work...
 Footer: txtstrap/_templates/forms/txtstrap_footer.misc.txp
 ============================================================ -->
 <div class="container">
-<txp:output_form form="snip_footer" />
+    <txp:output_form form="snip_footer" />
 </div>
 
 <!-- 
