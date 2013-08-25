@@ -30,10 +30,10 @@
 
 
 <style>
-share-buttons{
+    share-buttons{
 
-  }
-  .sharrre .button{
-    float:left;
-    width:60px;
-  }</style>
+    }
+    .sharrre .button{
+        float:left;
+        width:60px;
+    }</style>

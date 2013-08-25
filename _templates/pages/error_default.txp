@@ -2,16 +2,16 @@
 <html lang="<txp:lang />">
 
 
-<!--
-Head: txtstrap/_templates/forms/txtstrap_head.misc.txp
-======================================================== -->
-<head><txp:output_form form="txtstrap_head" /></head>
+    <!--
+    Head: txtstrap/_templates/forms/txtstrap_head.misc.txp
+    ======================================================== -->
+    <head><txp:output_form form="txtstrap_head" /></head>
 
 <body>
 
-<!--
-Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
-============================================================================ -->
+    <!--
+    Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
+    ============================================================================ -->
 <txp:output_form form="snip_fixed_navigation_bar" />
 
 
@@ -19,14 +19,14 @@ Fixed Navbar: txtstrap/_templates/forms/snip_fixed_navigation_bar.misc.txp
 Breadcrumbs: txtstrap/_templates/forms/snip_breadcrumbs.misc.txp
 ============================================================================ -->
 <div class="container">
-<txp:output_form form="snip_breadcrumbs" />
+    <txp:output_form form="snip_breadcrumbs" />
 </div>
 
 <!--
 Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
 ============================================================================ -->
 <div class="container"><!-- if any -->
-<txp:output_form form="snip_search_results" />
+    <txp:output_form form="snip_search_results" />
 </div>
 
 
@@ -34,9 +34,9 @@ Search Results: txtstrap/_templates/forms/snip_search_results.misc.txp
 Category Landing: txtstrap/_templates/forms/snip_category_landing.misc.txp
 ============================================================================ -->
 <txp:if_category>
-<div class="container"><!-- if any -->
-<txp:output_form form="snip_category_landing" />
-</div>
+    <div class="container"><!-- if any -->
+        <txp:output_form form="snip_category_landing" />
+    </div>
 </txp:if_category>
 
 <!--
@@ -46,21 +46,21 @@ Main Content: Error City...
 <div class="container">
 
 
-<div class="alert alert-block fade in">
+    <div class="alert alert-block fade in">
 
-<button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>
+        <button type="button" class="close" data-dismiss="alert"><i class="icon-remove"></i></button>
 
-<h1 class="error-status alert-heading"><txp:error_status /></h1>
+        <h1 class="error-status alert-heading"><txp:error_status /></h1>
 
-<p><p class="error-msg"><txp:error_message /></p></p>
+        <p><p class="error-msg"><txp:error_message /></p></p>
 
-</div>
+    </div>
 
-<div class="row">
-<div class="span4">
-<txp:output_form form="snip_search_input" />
-</div>
-</div>
+    <div class="row">
+        <div class="span4">
+            <txp:output_form form="snip_search_input" />
+        </div>
+    </div>
 
 </div> <!-- .container -->
 
@@ -70,7 +70,7 @@ Main Content: Error City...
 Footer: txtstrap/_templates/forms/txtstrap_footer.misc.txp
 ============================================================ -->
 <div class="container">
-<txp:output_form form="snip_footer" />
+    <txp:output_form form="snip_footer" />
 </div>
 
 <!-- 

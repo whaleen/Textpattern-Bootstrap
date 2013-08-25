@@ -1,5 +1,5 @@
 <h1><txp:category title="1" /></h1>
 
 <hr />
-	
+
 <txp:article form="snip_article_listing" />

@@ -8,19 +8,19 @@ Included forms plugins: snip_connected _user_snapshot.misc.txp (glx_gravatar)
 <txp:cbe_frontauth_redirect for="logout" value="/" />
 
 <txp:cbe_frontauth_if_connected>
-<!--
-Connected User Snapshot: txtstrap/_templates/forms/snip_connected _user_snapshot.misc.txp
-============================================================================ -->
-<txp:output_form form="snip_connected _user_snapshot" />
-<txp:else />
+    <!--
+    Connected User Snapshot: txtstrap/_templates/forms/snip_connected _user_snapshot.misc.txp
+    ============================================================================ -->
+    <txp:output_form form="snip_connected _user_snapshot" />
+    <txp:else />
 
-<txp:cbe_frontauth_login invite="">
-<legend>Please Sign In</legend>	
+    <txp:cbe_frontauth_login invite="">
+        <legend>Please Sign In</legend>	
 
-<input type="text" value="" name="p_userid" id="name" placeholder="username" class="input-bock-level">
-<input type="password" value="" name="p_password" id="password" placeholder="password" class="input-bock-level"><label class="staylabel" for="stay">Keep me logged in</label><input type="checkbox" name="p_stay" value="1" id="stay" class="checkbox"><label for="stay"></label><br> <input type="submit" value="Login" class="submit btn btn-success"> </p>
+        <input type="text" value="" name="p_userid" id="name" placeholder="username" class="input-bock-level">
+        <input type="password" value="" name="p_password" id="password" placeholder="password" class="input-bock-level"><label class="staylabel" for="stay">Keep me logged in</label><input type="checkbox" name="p_stay" value="1" id="stay" class="checkbox"><label for="stay"></label><br> <input type="submit" value="Login" class="submit btn btn-success"> </p>
 
-</txp:cbe_frontauth_login>
+    </txp:cbe_frontauth_login>
 
 </txp:cbe_frontauth_if_connected>
 
@@ -30,19 +30,19 @@ Connected User Snapshot: txtstrap/_templates/forms/snip_connected _user_snapshot
 
 
 <txp:hide>
-		<div class="span4 well">
-			<legend>Please Sign In</legend>
-          	<div class="alert alert-error">
-                <a class="close" data-dismiss="alert" href="#">×</a>Incorrect Username or Password!
-            </div>
-			<form method="POST" action="" accept-charset="UTF-8">
-			<input type="text" id="username" class="span3" name="username" placeholder="Username">
-			<input type="password" id="password" class="span3" name="password" placeholder="Password">
+    <div class="span4 well">
+        <legend>Please Sign In</legend>
+        <div class="alert alert-error">
+            <a class="close" data-dismiss="alert" href="#">×</a>Incorrect Username or Password!
+        </div>
+        <form method="POST" action="" accept-charset="UTF-8">
+            <input type="text" id="username" class="span3" name="username" placeholder="Username">
+            <input type="password" id="password" class="span3" name="password" placeholder="Password">
             <label class="checkbox">
-            	<input type="checkbox" name="remember" value="1"> Keep me logged in
+                <input type="checkbox" name="remember" value="1"> Keep me logged in
             </label>
-			<button type="submit" name="submit" class="btn btn-info btn-block">Sign in</button>
-			</form>    
-		</div>
+            <button type="submit" name="submit" class="btn btn-info btn-block">Sign in</button>
+        </form>    
+    </div>
 </txp:hide>	
 
