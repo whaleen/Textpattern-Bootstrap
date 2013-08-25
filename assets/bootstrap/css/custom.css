@@ -14,3 +14,9 @@ h1 a, h1 a:hover {
 color: #333;
 text-transform: capitalize;
 }
+
+/* Share buttons in foot of individual article / see assets/sharre */
+.sharrre .button{
+float:left;
+width:60px;
+}
