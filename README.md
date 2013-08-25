@@ -5,7 +5,7 @@ Twitter Bootstrap for Textpattern.
 
 ## Demo
 
-Demo at [http://joshuavaage.com/projects/txtstrap](http://joshuavaage.com/projects/txtstrap): All section use the default.txp page template. There are a handful of fake articles posted for the purpose of having example content. 
+Demo at [http://wagebyra.com/projects/txtstrap](http://wagebyra.com/projects/txtstrap): All section use the default.txp page template. There are a handful of fake articles posted for the purpose of having example content. 
 
 ### Theme?
 
