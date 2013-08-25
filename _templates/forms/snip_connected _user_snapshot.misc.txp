@@ -19,7 +19,7 @@
 		</ul>
 <hr />
 
-<form action="/textstrap.dev/" method="post">
+<form action="<txp:site_url />" method="post">
 <input type="submit" value="Logout" class="publish"><input type="hidden" value="1" name="p_logout">
 </form>
 
