@@ -89,7 +89,7 @@ Footer: txtstrap/_templates/forms/txtstrap_footer.misc.txp
 </div>
 
 <!-- 
-Dragon's Breath: txtstrap/_templates/forms/txtstrap_dragons_breath.misc.txp
+Dragon's Breath (Javascript): txtstrap/_templates/forms/txtstrap_dragons_breath.misc.txp
 ============================================================ -->
 <txp:output_form form="txtstrap_dragons_breath" />
 
