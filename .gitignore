@@ -41,11 +41,6 @@ Session.vim
 .LSOverride
 Icon
 
-# Frameworks
-# Yii
-assets/
-protected/runtime/
-themes/classic/views/
 
 # Node
 lib-cov
@@ -63,5 +58,3 @@ results
 
 npm-debug.log
 node_modules
-
-_templates/pages/.DS_Store
