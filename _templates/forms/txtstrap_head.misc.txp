@@ -11,9 +11,6 @@
 <!-- Font Awesome: A substitute icon set-->
 <link rel="stylesheet" href="<txp:site_url />txtstrap/assets/font-awesome/css/font-awesome.css">
 
-<!-- Grid overlay for proofing placement and layout as you work -->
-<link rel="stylesheet" href="<txp:site_url />txtstrap/assets/headsupgrid/hugrid.css" />
-
 <!-- Any of your custom styles / Bootstrap overrides -->
 <link rel="stylesheet" href="<txp:site_url />txtstrap/assets/bootstrap/css/custom.css">
 
